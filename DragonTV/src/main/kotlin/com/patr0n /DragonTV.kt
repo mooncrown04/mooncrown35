@@ -11,7 +11,7 @@ import java.io.InputStream
 
 class DragonTV : MainAPI() {
     override var mainUrl              = "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/dragon.m3u"
-    override var name                 = "DragonTV"
+    override var name                 = "DragonTV1"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = true
