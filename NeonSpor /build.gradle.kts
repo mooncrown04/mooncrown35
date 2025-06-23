@@ -1,7 +1,7 @@
 version = 6
 
 cloudstream {
-    authors     = listOf("mooncrown35")
+    authors     = listOf("sarapcanagii")
     language    = "tr"
     description = "(BeIN Sport, Tivibu Spor ve Smart Spor için VPN Gerekebilir.) NeonSpor eklentisini de BeIN Sport, Tabii Spor, Tivibu Spor, Smart Spor, S Sport ve Diğer kanallar mevcuttur."
 
