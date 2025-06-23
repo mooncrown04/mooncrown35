@@ -1,4 +1,6 @@
 name: CloudStream Derleyici
+with:
+  token: ${{ secrets.GITHUB_TOKEN }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
