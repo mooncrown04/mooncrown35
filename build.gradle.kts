@@ -42,7 +42,7 @@ subprojects {
     }
 
     android {
-        namespace = "com.keyiflerolsun"
+        namespace = "com.Pitipitii"
 
         defaultConfig {
             minSdk = 21
