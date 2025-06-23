@@ -38,12 +38,11 @@ subprojects {
         // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/mooncrown04/mooncrown35")
 
-        authors = listOf("mooncrown04")
+        authors = listOf("keyiflerolsun")
     }
 
     android {
-        namespace = "com.mooncrown04
-"
+        namespace = "com.keyiflerolsun"
 
         defaultConfig {
             minSdk = 21
