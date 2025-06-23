@@ -1,6 +1,6 @@
 // ! https://codeberg.org/cloudstream/cloudstream-extensions-multilingual/src/branch/master/FreeTVProvider/src/main/kotlin/com/lagradost/FreeTVProvider.kt
 
-package com.lagradost
+package com.mooncrown04
 
 import android.util.Log
 import com.lagradost.cloudstream3.*
@@ -10,7 +10,7 @@ import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import java.io.InputStream
 
 class NeonSpor : MainAPI() {
-    override var mainUrl              = "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/master/NeonSpor/NeonSpor.m3u8"
+    override var mainUrl              = "https://raw.githubusercontent.com/mooncrown04/mooncrown35/refs/heads/master/NeonSpor/NeonSpor.m3u8"
     override var name                 = "NeonSpor"
     override val hasMainPage          = true
     override var lang                 = "tr"
