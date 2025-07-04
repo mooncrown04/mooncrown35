@@ -1,6 +1,6 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.keyiflerolsun
+package com.mooncrown
 
 import android.util.Log
 import org.jsoup.nodes.Element
@@ -11,7 +11,7 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
 
 class Temel : MainAPI() {
     override var mainUrl              = "https://www.setfilmizle.lol"
-    override var name                 = "Temel"
+    override var name                 = "Mooncrown"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = false
