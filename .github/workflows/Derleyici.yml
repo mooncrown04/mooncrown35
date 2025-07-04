@@ -43,6 +43,9 @@ jobs:
       - name: Android SDK Ayarla
         uses: android-actions/setup-android@v3.2.2
 
+      - name: JitPack Kimlik Doğrulama
+        run: echo "machine jitpack.io login ${{ secrets.GITHUB_ACTOR }} password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+
       - name: Eklentileri Derle
         run: |
           cd $GITHUB_WORKSPACE/src
