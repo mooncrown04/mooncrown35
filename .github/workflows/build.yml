@@ -31,28 +31,28 @@ jobs:
 
     - name: Eklentiyi Derle (CS3 Dosyası Oluştur) # Adım adı güncellendi
       run: |
-        ./gradlew :TwitchProvider:make # TwitchProvider modülü için make görevini çalıştır
+        ./gradlew :Moon:make # Moon modülü için make görevini çalıştır
       # Eğer modülünüzün adı "Temel" ise: ./gradlew :Temel:make
 
     - name: Build Çıktılarını Listele # Çıktı klasörünü kesin olarak bulmak için bu adımı tutalım
       run: |
         echo "Listing contents of TwitchProvider/build/outputs/ directory:"
-        ls -R TwitchProvider/build/outputs/ || true
-        echo "Listing contents of TwitchProvider/build/libs/ directory:"
-        ls -R TwitchProvider/build/libs/ || true
-        echo "Searching for .cs and .cs3 files under TwitchProvider/build/:"
-        find TwitchProvider/build/ -name "*.cs" || true
-        find TwitchProvider/build/ -name "*.cs3" || true
-        echo "Searching for .jar and .aar files under TwitchProvider/build/:"
-        find TwitchProvider/build/ -name "*.jar" || true
-        find TwitchProvider/build/ -name "*.aar" || true
+        ls -R Moon/build/outputs/ || true
+        echo "Listing contents of Moon/build/libs/ directory:"
+        ls -R Moon/build/libs/ || true
+        echo "Searching for .cs and .cs3 files under Moon/build/:"
+        find Moon/build/ -name "*.cs" || true
+        find Moon/build/ -name "*.cs3" || true
+        echo "Searching for .jar and .aar files under Moon/build/:"
+        find Moon/build/ -name "*.jar" || true
+        find Moon/build/ -name "*.aar" || true
       shell: bash
 
     - name: Cloudstream Eklentisi Yükle (CS3)
       uses: actions/upload-artifact@v4
       with:
         name: Cloudstream-Eklentisi-CS3
-        path: TwitchProvider/build/*.cs3 # Yolu buraya değiştirdik!
+        path: Moon/build/*.cs3 # Yolu buraya değiştirdik!
         retention-days: 7
         if-no-files-found: error
         compression-level: 6
