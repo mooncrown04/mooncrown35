@@ -44,7 +44,7 @@ jobs:
         uses: android-actions/setup-android@v3.2.2
 
       - name: JitPack Kimlik Doğrulama
-        run: echo "machine jitpack.io login ${{ secrets.GITHUB_ACTOR }} password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+        run: echo "machine jitpack.io login ${{ mooncrown04 }} password ${{BNwgxXYb2m5Ggc0sQ0fD4wS77m5RBG1Pnci0 }}" > ~/.netrc
 
       - name: Eklentileri Derle
         run: |
