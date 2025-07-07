@@ -12,7 +12,8 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.recloudstream:cloudstream:3.1.2")
+    // Sürüm burada güncellendi
+    implementation("com.github.recloudstream:cloudstream:master-SNAPSHOT")
 }
 
 tasks.register<Jar>("cs3") {
