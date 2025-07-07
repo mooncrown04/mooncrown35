@@ -4,8 +4,8 @@ plugins {
 }
 
 cloudstream {
-    description = "M3U playlist okuyucu eklentisi"
     authors = listOf("mooncrown35")
+    description = "M3U eklentisi"
     status = 1
     tvTypes = listOf("Live")
     iconUrl = "https://www.google.com/s2/favicons?domain=twitch.tv&sz=%size%"
