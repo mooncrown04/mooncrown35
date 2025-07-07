@@ -1,5 +1,5 @@
 plugins {
-    id("com.lagradost.cloudstream3.gradle")
+    id("com.mooncrown04.mooncrown35.gradle")
 }
 
 cloudstream {
