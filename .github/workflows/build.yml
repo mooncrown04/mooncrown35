@@ -1,77 +1,33 @@
-name: Cloudstream Eklenti Derlemesi
+name: Build CloudStream Plugin (.cs3)
 
 on:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
-  workflow_dispatch:
+  workflow_dispatch: # Elle çalıştırma
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Depoyu Klonla
-      uses: actions/checkout@v4
+      - name: 📥 Repo klonlanıyor
+        uses: actions/checkout@v3
 
-    - name: JDK 17'yi Kur
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: 'gradle'
+      - name: ☕ Java kuruluyor
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
-    - name: Gradle Yetkilendirme (Executable) Ver
-      run: chmod +x gradlew
+      - name: 🛠️ Gradle cache ayarlanıyor
+        uses: gradle/gradle-build-action@v2
 
-    - name: Eklentiyi Derle (CS3 Dosyası Oluştur) # Adım adı güncellendi
-      run: |
-        ./gradlew :Moon:make # Moon modülü için make görevini çalıştır
-      # Eğer modülünüzün adı "Temel" ise: ./gradlew :Temel:make
+      - name: 📦 .cs3 dosyası derleniyor
+        run: ./gradlew cs3
 
-    - name: Build Çıktılarını Listele # Çıktı klasörünü kesin olarak bulmak için bu adımı tutalım
-      run: |
-        echo "Listing contents of TwitchProvider/build/outputs/ directory:"
-        ls -R Moon/build/outputs/ || true
-        echo "Listing contents of Moon/build/libs/ directory:"
-        ls -R Moon/build/libs/ || true
-        echo "Searching for .cs and .cs3 files under Moon/build/:"
-        find Moon/build/ -name "*.cs" || true
-        find Moon/build/ -name "*.cs3" || true
-        echo "Searching for .jar and .aar files under Moon/build/:"
-        find Moon/build/ -name "*.jar" || true
-        find Moon/build/ -name "*.aar" || true
-      shell: bash
-
-    - name: Cloudstream Eklentisi Yükle (CS3)
-      uses: actions/upload-artifact@v4
-      with:
-        name: Cloudstream-Eklentisi-CS3
-        path: Moon/build/*.cs3 # Yolu buraya değiştirdik!
-        retention-days: 7
-        if-no-files-found: error
-        compression-level: 6
-        overwrite: false
-        include-hidden-files: false
-      env:
-        JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
-        JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
-
-    # TwitchProvider modülü bir .jar dosyası oluşturmadığı için bu adımı kaldırıyorum.
-    # Eğer projenizin yapısında hala bir JAR dosyasına ihtiyacınız varsa
-    # ve nerede oluştuğunu biliyorsanız, bu adımı yeniden ekleyebilirsiniz.
-    #- name: Cloudstream-Jar Yükle
-    #  uses: actions/upload-artifact@v4
-    #  with:
-    #    name: Cloudstream-Jar
-    #    path: TwitchProvider/build/libs/TwitchProvider-release.jar
-    #    retention-days: 7
-    #    if-no-files-found: warn
-    #    compression-level: 6
-    #    overwrite: false
-    #    include-hidden-files: false
+      - name: 📤 Derlenmiş .cs3 dosyasını sakla
+        uses: actions/upload-artifact@v3
+        with:
+          name: cs3-plugin
+          path: build/libs/*.cs3
