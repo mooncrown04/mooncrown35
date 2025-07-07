@@ -1,20 +1,12 @@
-
-
-version = 2
+plugins {
+    id("cloudstream-plugin") version "1.0.0"
+    kotlin("jvm") version "1.8.0"
+}
 
 cloudstream {
-    description = "Watch livestreams from Twitch"
-    authors = listOf("mooncrown04")
-
-    /**
-     * Status int as one of the following:
-     * 0: Down
-     * 1: Ok
-     * 2: Slow
-     * 3: Beta-only
-     **/
+    description = "M3U playlist okuyucu eklentisi"
+    authors = listOf("mooncrown35")
     status = 1
-
     tvTypes = listOf("Live")
     iconUrl = "https://www.google.com/s2/favicons?domain=twitch.tv&sz=%size%"
     isCrossPlatform = true
@@ -23,11 +15,12 @@ cloudstream {
 repositories {
     mavenCentral()
     google()
-    maven { url = uri("https://jitpack.io") }
+    maven("https://jitpack.io")
+    maven("https://recloudstream.github.io/maven")
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation(kotlin("stdlib"))
     implementation("com.github.recloudstream.cloudstream:library-jvm:master-SNAPSHOT")
     implementation("com.github.Blatzar:NiceHttp:0.4.11")
     implementation("org.jsoup:jsoup:1.18.3")
