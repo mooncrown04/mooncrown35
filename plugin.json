@@ -1,0 +1,9 @@
+{
+  "name": "MoonCrown35 IPTV",
+  "description": "M3U playlist okuyucu eklentisi",
+  "version": 1,
+  "language": "tr",
+  "type": "media",
+  "authors": ["mooncrown35"],
+  "mainClass": "com.mooncrown04.M3UPlugin"
+}
