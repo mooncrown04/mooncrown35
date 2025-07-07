@@ -4,19 +4,25 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        // Shitpack repo which contains our tools and dependencies
-        maven("https://jitpack.io")
-    }
+ 
+plugins {
+    kotlin("jvm") version "1.9.10"
+}
 
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.7.3")
-        // Cloudstream gradle plugin which makes everything work and builds plugins
-        classpath("com.github.recloudstream:gradle:-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
-    }
+repositories {
+    mavenCentral()
+    google()
+    maven { url = uri("https://jitpack.io") } // Burası şart
+}
+
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("com.github.recloudstream.cloudstream:library-jvm:master-SNAPSHOT")
+    implementation("com.github.Blatzar:NiceHttp:0.4.11")
+    implementation("org.jsoup:jsoup:1.18.3")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
+}
 }
 
 allprojects {
