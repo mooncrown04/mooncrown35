@@ -12,11 +12,11 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.recloudstream:cloudstream:3.1.2") // Uyumlu sürüm
+    implementation("com.github.recloudstream:cloudstream:3.1.2")
 }
 
 tasks.register<Jar>("cs3") {
-    archiveBaseName.set("M3U_Stream")
+    archiveBaseName.set("mooncrown35") // .cs3 dosyası adı
     archiveExtension.set("cs3")
     from(sourceSets.main.get().output)
     from("plugin.json")
