@@ -26,7 +26,7 @@ jobs:
         run: ./gradlew cs3
 
       - name: Upload .cs3 Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mooncrown35-plugin
           path: build/libs/*.cs3
