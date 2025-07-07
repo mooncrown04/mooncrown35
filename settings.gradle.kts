@@ -1,1 +1,1 @@
-rootProject.name = "M3UPlugin"
+rootProject.name = "mooncrown35"
