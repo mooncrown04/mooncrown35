@@ -2,32 +2,31 @@ name: Build CloudStream Plugin (.cs3)
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch: # Elle çalıştırma
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Repo klonlanıyor
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: ☕ Java kuruluyor
+      - name: Setup Java
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: 🛠️ Gradle cache ayarlanıyor
+      - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      - name: 📦 .cs3 dosyası derleniyor
+      - name: Build .cs3 Plugin
         run: ./gradlew cs3
 
-      - name: 📤 Derlenmiş .cs3 dosyasını sakla
+      - name: Upload .cs3 Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: cs3-plugin
+          name: mooncrown35-plugin
           path: build/libs/*.cs3
