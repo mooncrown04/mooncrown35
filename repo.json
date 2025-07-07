@@ -1,8 +1,0 @@
-{
-    "name": "mooncrown04 Cloudsteam Eklenti Deposu",
-    "description": "Depomun açıklamasıdır. Dikkate alın ya da almayın",
-    "manifestVersion": 1,
-    "pluginLists": [
-      "https://raw.githubusercontent.com/mooncrown04/mooncrown35/builds/plugins.json"
-    ]
-}
