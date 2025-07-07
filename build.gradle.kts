@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("com.github.recloudstream.cloudstream:library-jvm:master-SNAPSHOT")
+    implementation("com.github.recloudstream.cloudstream:library-jvm:main")
     implementation("org.jsoup:jsoup:1.18.3")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
 }
