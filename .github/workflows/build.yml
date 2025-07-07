@@ -1,32 +1,26 @@
-name: Build CloudStream Plugin (.cs3)
+name: Android Build
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Setup Java
+      - name: Set up JDK
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
-      - name: Build .cs3 Plugin
-        run: ./gradlew cs3
-
-      - name: Upload .cs3 Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: mooncrown35-plugin
-          path: build/libs/*.cs3
+      - name: Build with Gradle
+        run: ./gradlew build
