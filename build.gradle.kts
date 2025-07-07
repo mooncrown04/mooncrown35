@@ -1,24 +1,18 @@
 plugins {
-    kotlin("jvm") version "2.1.10"
-    id("java-library")
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
 }
 
-group = "com.mooncrown04"
-version = "1.0"
+group 'com.mooncrown04'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://jitpack.io") }
+    // Cloudstream ve nicehttp için ek repository gerekebilir:
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    // Sürüm burada güncellendi
-    implementation("com.github.recloudstream:cloudstream:master-SNAPSHOT")
-}
-
-tasks.register<Jar>("cs3") {
-    archiveBaseName.set("mooncrown35")
-    archiveExtension.set("cs3")
-    from(sourceSets.main.get().output)
-    from("plugin.json")
+    implementation 'org.jsoup:jsoup:1.15.4'
+    implementation 'com.github.recloudstream:cloudstream:3.4.0'
+    implementation 'com.github.recloudstream:nicehttp:0.1.21'
 }
