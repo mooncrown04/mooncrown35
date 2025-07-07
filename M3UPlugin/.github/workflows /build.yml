@@ -1,0 +1,33 @@
+name: Build CloudStream Plugin (.cs3)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Elle çalıştırma
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Repo klonlanıyor
+        uses: actions/checkout@v3
+
+      - name: ☕ Java kuruluyor
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: 🛠️ Gradle cache ayarlanıyor
+        uses: gradle/gradle-build-action@v2
+
+      - name: 📦 .cs3 dosyası derleniyor
+        run: ./gradlew cs3
+
+      - name: 📤 Derlenmiş .cs3 dosyasını sakla
+        uses: actions/upload-artifact@v3
+        with:
+          name: cs3-plugin
+          path: build/libs/*.cs3
