@@ -11,6 +11,6 @@ repositories {
 }
 
 dependencies {
-    // Sadece harici kütüphaneleri ekle
     implementation("org.jsoup:jsoup:1.15.4")
+    // Başka Cloudstream dependency EKLEME!
 }
