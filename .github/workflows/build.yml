@@ -1,33 +1,77 @@
-name: Android Build
+name: Cloudstream Eklenti Derlemesi
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+      - master
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+      - master
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+    - name: Depoyu Klonla
+      uses: actions/checkout@v4
 
-      - name: Cache Gradle packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.gradle/caches
-          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-          restore-keys: gradle-${{ runner.os }}-
+    - name: JDK 17'yi Kur
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: 'gradle'
 
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+    - name: Gradle Yetkilendirme (Executable) Ver
+      run: chmod +x gradlew
 
-      - name: Make gradlew executable
-        run: chmod +x gradlew
+    - name: Eklentiyi Derle (CS3 Dosyası Oluştur) # Adım adı güncellendi
+      run: |
+        ./gradlew :TwitchProvider:make # TwitchProvider modülü için make görevini çalıştır
+      # Eğer modülünüzün adı "Temel" ise: ./gradlew :Temel:make
 
-      - name: Build with Gradle
-        run: ./gradlew build --warning-mode all
+    - name: Build Çıktılarını Listele # Çıktı klasörünü kesin olarak bulmak için bu adımı tutalım
+      run: |
+        echo "Listing contents of TwitchProvider/build/outputs/ directory:"
+        ls -R TwitchProvider/build/outputs/ || true
+        echo "Listing contents of TwitchProvider/build/libs/ directory:"
+        ls -R TwitchProvider/build/libs/ || true
+        echo "Searching for .cs and .cs3 files under TwitchProvider/build/:"
+        find TwitchProvider/build/ -name "*.cs" || true
+        find TwitchProvider/build/ -name "*.cs3" || true
+        echo "Searching for .jar and .aar files under TwitchProvider/build/:"
+        find TwitchProvider/build/ -name "*.jar" || true
+        find TwitchProvider/build/ -name "*.aar" || true
+      shell: bash
+
+    - name: Cloudstream Eklentisi Yükle (CS3)
+      uses: actions/upload-artifact@v4
+      with:
+        name: Cloudstream-Eklentisi-CS3
+        path: TwitchProvider/build/*.cs3 # Yolu buraya değiştirdik!
+        retention-days: 7
+        if-no-files-found: error
+        compression-level: 6
+        overwrite: false
+        include-hidden-files: false
+      env:
+        JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
+        JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
+
+    # TwitchProvider modülü bir .jar dosyası oluşturmadığı için bu adımı kaldırıyorum.
+    # Eğer projenizin yapısında hala bir JAR dosyasına ihtiyacınız varsa
+    # ve nerede oluştuğunu biliyorsanız, bu adımı yeniden ekleyebilirsiniz.
+    #- name: Cloudstream-Jar Yükle
+    #  uses: actions/upload-artifact@v4
+    #  with:
+    #    name: Cloudstream-Jar
+    #    path: TwitchProvider/build/libs/TwitchProvider-release.jar
+    #    retention-days: 7
+    #    if-no-files-found: warn
+    #    compression-level: 6
+    #    overwrite: false
+    #    include-hidden-files: false
