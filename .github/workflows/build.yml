@@ -31,28 +31,28 @@ jobs:
 
     - name: Eklentiyi Derle (CS3 Dosyası Oluştur) # Adım adı güncellendi
       run: |
-        ./gradlew :TwitchProvider:make # TwitchProvider modülü için make görevini çalıştır
+        ./gradlew :m3u:make # m3u modülü için make görevini çalıştır
       # Eğer modülünüzün adı "Temel" ise: ./gradlew :Temel:make
 
     - name: Build Çıktılarını Listele # Çıktı klasörünü kesin olarak bulmak için bu adımı tutalım
       run: |
-        echo "Listing contents of TwitchProvider/build/outputs/ directory:"
-        ls -R TwitchProvider/build/outputs/ || true
-        echo "Listing contents of TwitchProvider/build/libs/ directory:"
-        ls -R TwitchProvider/build/libs/ || true
-        echo "Searching for .cs and .cs3 files under TwitchProvider/build/:"
-        find TwitchProvider/build/ -name "*.cs" || true
-        find TwitchProvider/build/ -name "*.cs3" || true
-        echo "Searching for .jar and .aar files under TwitchProvider/build/:"
-        find TwitchProvider/build/ -name "*.jar" || true
-        find TwitchProvider/build/ -name "*.aar" || true
+        echo "Listing contents of m3u/build/outputs/ directory:"
+        ls -R m3u/build/outputs/ || true
+        echo "Listing contents of m3u/build/libs/ directory:"
+        ls -R m3u/build/libs/ || true
+        echo "Searching for .cs and .cs3 files under m3u/build/:"
+        find m3u/build/ -name "*.cs" || true
+        find m3u/build/ -name "*.cs3" || true
+        echo "Searching for .jar and .aar files under m3u/build/:"
+        find m3u/build/ -name "*.jar" || true
+        find m3u/build/ -name "*.aar" || true
       shell: bash
 
     - name: Cloudstream Eklentisi Yükle (CS3)
       uses: actions/upload-artifact@v4
       with:
         name: Cloudstream-Eklentisi-CS3
-        path: TwitchProvider/build/*.cs3 # Yolu buraya değiştirdik!
+        path: m3u/build/*.cs3 # Yolu buraya değiştirdik!
         retention-days: 7
         if-no-files-found: error
         compression-level: 6
@@ -62,14 +62,14 @@ jobs:
         JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
         JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
 
-    # TwitchProvider modülü bir .jar dosyası oluşturmadığı için bu adımı kaldırıyorum.
+    # m3u modülü bir .jar dosyası oluşturmadığı için bu adımı kaldırıyorum.
     # Eğer projenizin yapısında hala bir JAR dosyasına ihtiyacınız varsa
     # ve nerede oluştuğunu biliyorsanız, bu adımı yeniden ekleyebilirsiniz.
     #- name: Cloudstream-Jar Yükle
     #  uses: actions/upload-artifact@v4
     #  with:
     #    name: Cloudstream-Jar
-    #    path: TwitchProvider/build/libs/TwitchProvider-release.jar
+    #    path: m3u/build/libs/m3u-release.jar
     #    retention-days: 7
     #    if-no-files-found: warn
     #    compression-level: 6
