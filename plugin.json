@@ -1,0 +1,9 @@
+{
+  "name": "M3U Stream",
+  "description": "Canlı yayınlar için M3U playlist okuyucu eklentisi.",
+  "version": 1,
+  "language": "tr",
+  "type": "media",
+  "authors": ["moon.crown04"],
+  "mainClass": "com.mooncrown04.M3UPlugin"
+}
