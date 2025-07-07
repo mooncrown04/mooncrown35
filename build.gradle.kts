@@ -12,7 +12,5 @@ repositories {
 
 dependencies {
     implementation("org.jsoup:jsoup:1.15.4")
-    // Cloudstream ve nicehttp için uygun sürümleri kullanın, örnek:
-    implementation("com.github.recloudstream:cloudstream:3.4.0")
-    implementation("com.github.recloudstream:nicehttp:0.1.21")
+    // Cloudstream ve nicehttp YOK!
 }
