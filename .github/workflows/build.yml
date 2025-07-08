@@ -1,77 +1,62 @@
-name: Cloudstream Eklenti Derlemesi
+# Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+name: CloudStream Derleyici
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
-  workflow_dispatch:
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.yml"
+      - "**/*.jpg"
+      - "**/*.png"
+      - "**/*.py"
 
 jobs:
-  build:
+  CloudStreamDerleyici:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Depoyu Klonla
-      uses: actions/checkout@v4
+      - name: "'src' Depo Kontrolü"
+        uses: actions/checkout@v4.2.2
+        with:
+          path: "src"
 
-    - name: JDK 17'yi Kur
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: 'gradle'
+      - name: "'build' Depo Kontrolü"
+        uses: actions/checkout@v4.2.2
+        with:
+          ref: "builds"
+          path: "builds"
 
-    - name: Gradle Yetkilendirme (Executable) Ver
-      run: chmod +x gradlew
+      - name: Eski Derlemeleri Temizle
+        run: rm $GITHUB_WORKSPACE/builds/*.cs3 || true
 
-    - name: Eklentiyi Derle (CS3 Dosyası Oluştur) # Adım adı güncellendi
-      run: |
-        ./gradlew :m3u:make # m3u modülü için make görevini çalıştır
-      # Eğer modülünüzün adı "Temel" ise: ./gradlew :Temel:make
+      - name: JDK 17 Ayarla
+        uses: actions/setup-java@v4.6.0
+        with:
+          distribution: adopt
+          java-version: 17
 
-    - name: Build Çıktılarını Listele # Çıktı klasörünü kesin olarak bulmak için bu adımı tutalım
-      run: |
-        echo "Listing contents of m3u/build/outputs/ directory:"
-        ls -R m3u/build/outputs/ || true
-        echo "Listing contents of m3u/build/libs/ directory:"
-        ls -R m3u/build/libs/ || true
-        echo "Searching for .cs and .cs3 files under m3u/build/:"
-        find m3u/build/ -name "*.cs" || true
-        find m3u/build/ -name "*.cs3" || true
-        echo "Searching for .jar and .aar files under m3u/build/:"
-        find m3u/build/ -name "*.jar" || true
-        find m3u/build/ -name "*.aar" || true
-      shell: bash
+      - name: Android SDK Ayarla
+        uses: android-actions/setup-android@v3.2.2
 
-    - name: Cloudstream Eklentisi Yükle (CS3)
-      uses: actions/upload-artifact@v4
-      with:
-        name: Cloudstream-Eklentisi-CS3
-        path: m3u/build/*.cs3 # Yolu buraya değiştirdik!
-        retention-days: 7
-        if-no-files-found: error
-        compression-level: 6
-        overwrite: false
-        include-hidden-files: false
-      env:
-        JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
-        JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.15-6/x64
+      - name: Eklentileri Derle
+        run: |
+          cd $GITHUB_WORKSPACE/src
+          chmod +x gradlew
+          ./gradlew make makePluginsJson
+          cp **/build/*.cs3 $GITHUB_WORKSPACE/builds
+          cp build/plugins.json $GITHUB_WORKSPACE/builds
 
-    # m3u modülü bir .jar dosyası oluşturmadığı için bu adımı kaldırıyorum.
-    # Eğer projenizin yapısında hala bir JAR dosyasına ihtiyacınız varsa
-    # ve nerede oluştuğunu biliyorsanız, bu adımı yeniden ekleyebilirsiniz.
-    #- name: Cloudstream-Jar Yükle
-    #  uses: actions/upload-artifact@v4
-    #  with:
-    #    name: Cloudstream-Jar
-    #    path: m3u/build/libs/m3u-release.jar
-    #    retention-days: 7
-    #    if-no-files-found: warn
-    #    compression-level: 6
-    #    overwrite: false
-    #    include-hidden-files: false
+      - name: Derlemeleri Yükle
+        run: |
+          cd $GITHUB_WORKSPACE/builds
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit --amend -m "$GITHUB_SHA 'nın Derlenmesi" || exit 0   # eğer commit edilecek bir şey yoksa hata verme
+          git push --force
