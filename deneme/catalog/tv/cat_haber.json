@@ -1,1 +1,109 @@
 
+{
+  "metas": [
+    {
+      "id": "haber_turk",
+      "type": "tv",
+      "name": "Haber Türk",
+      "poster": "https://begenal.shop//resim/galeri_MTY0N_1582.png",
+      "background": "https://begenal.shop//resim/galeri_MTY0N_1582.png",
+      "logo": "https://begenal.shop//resim/galeri_MTY0N_1582.png",
+      "description": "Güncel haberler, analizler ve canlı bağlantılarla Türkiye'nin haber merkezi.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "haber_turk", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "cnn_turk",
+      "type": "tv",
+      "name": "CNN Türk",
+      "poster": "https://begenal.shop//resim/galeri_MTY0N_1579.png",
+      "background": "https://begenal.shop//resim/galeri_MTY0N_1579.png",
+      "logo": "https://begenal.shop//resim/galeri_MTY0N_1579.png",
+      "description": "Dünyadan ve Türkiye'den son dakika haberleri, tarafsız ve hızlı.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "cnn_turk", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "trt_haber",
+      "type": "tv",
+      "name": "TRT Haber",
+      "poster": "https://picon.pics/TR/News/Trthaber.png",
+      "background": "https://picon.pics/TR/News/Trthaber.png",
+      "logo": "https://picon.pics/TR/News/Trthaber.png",
+      "description": "Türkiye'nin resmi haber kanalı. Doğru ve güvenilir haberin adresi.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "trt_haber", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "a_haber",
+      "type": "tv",
+      "name": "A Haber",
+      "poster": "https://picon.pics/TR/News/Ahaber.png",
+      "background": "https://picon.pics/TR/News/Ahaber.png",
+      "logo": "https://picon.pics/TR/News/Ahaber.png",
+      "description": "Gündemin nabzını tutan özel dosyalar ve canlı yayın akışı.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "a_haber", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "sozcu_tv",
+      "type": "tv",
+      "name": "Sözcü TV",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "background": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "description": "Halkın sesi, gerçeklerin adresi. Güncel siyaset ve yaşam haberleri.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "sozcu_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "bloomberg_ht",
+      "type": "tv",
+      "name": "Bloomberg HT",
+      "poster": "https://picon.pics/TR/News/Bloomberg.png",
+      "background": "https://picon.pics/TR/News/Bloomberg.png",
+      "logo": "https://picon.pics/TR/News/Bloomberg.png",
+      "description": "Ekonomi, finans ve piyasaların kalbi burada atıyor.",
+      "genres": ["Haber", "Ekonomi"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "bloomberg_ht", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "tgrt_haber",
+      "type": "tv",
+      "name": "TGRT Haber",
+      "poster": "https://picon.pics/TR/News/Tgrthaber.png",
+      "background": "https://picon.pics/TR/News/Tgrthaber.png",
+      "logo": "https://picon.pics/TR/News/Tgrthaber.png",
+      "description": "Hızlı, ilkeli ve güncel haber sunumuyla TGRT Haber.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "tgrt_haber", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "flash_haber",
+      "type": "tv",
+      "name": "Flash Haber",
+      "poster": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "background": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "logo": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "description": "Sıcak gelişmeler ve özel haber kuşaklarıyla canlı yayın.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "flash_haber", "title": "Canlı Yayın" }]
+    }
+  ]
+}
