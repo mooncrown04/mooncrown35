@@ -1,0 +1,18 @@
+{
+  "id": "org.kendi.iptv.eklentim",
+  "version": "1.0.0",
+  "name": "Kendi TV Listem",
+  "description": "Özel kategorize edilmiş canlı TV eklentisi.",
+  "types": ["tv"],
+  "idPrefixes": ["benimiptv:"],
+  "catalogs": [
+    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar" },
+    { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
+    { "id": "cat_haber", "type": "tv", "name": "📰 Haber" },
+    { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" },
+    { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" },
+    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" },
+    { "id": "cat_yerel", "type": "tv", "name": "🏠 Yerel Yayınlar" }
+  ],
+  "resources": ["catalog", "meta", "stream"]
+}
