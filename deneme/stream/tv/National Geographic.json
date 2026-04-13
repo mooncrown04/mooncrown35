@@ -3,7 +3,7 @@
     {
       "name": "National Geographic",
       "title": "National Geographic | BELGESEL",
-      "url": "http://139.162.182.79/live/test/index.m3u8",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "National-Geographic"
