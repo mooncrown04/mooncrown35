@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "chill_tv",
+    "type": "tv",
+    "name": "Chill TV",
+    "poster": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+    "background": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+    "logo": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+    "description": "Dinlendirici manzaralar ve rahatlatıcı müzikler eşliğinde huzur veren yayınlar.",
+    "genres": ["Yaşam"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
