@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "cnn_turk",
+      "title": "CNN Türk | HABER",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "cnn-turk"
+      }
+    }
+  ]
+}
