@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "nat_geo_wild",
+    "type": "tv",
+    "name": "Nat Geo Wild",
+    "poster": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+    "background": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+    "logo": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+    "description": "Vahşi doğanın en çarpıcı görüntüleri ve hayvanlar aleminin gizemleri.",
+    "genres": ["Belgesel"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
