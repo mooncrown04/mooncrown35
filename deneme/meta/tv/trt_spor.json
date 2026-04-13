@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "id": "trt_spor",
+    "type": "tv",
+    "name": "Trt spor",
+    "poster": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
+    "background": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
+    "logo": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
+    "description": "Bilim, keşif ve macera dolu dünyaca ünlü belgesel kanalı. Doğayı ve evreni National Geographic kalitesiyle keşfedin.",
+    "genres": ["Spor"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın",
+    "trailers": [
+      {
+        "source": "Unw_66O_0S0",
+        "type": "Trailer"
+      }
+    ],
+    "videos": [
+      {
+        "id": "nv_trt_spor",
+        "title": "Canlı Yayın",
+        "released": "2024-01-01T00:00:00.000Z"
+      }
+    ]
+  }
+}
+
