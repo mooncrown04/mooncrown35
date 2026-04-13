@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "discovery",
+    "type": "tv",
+    "name": "Discovery Channel",
+    "poster": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+    "background": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+    "logo": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+    "description": "Dünyanın en popüler bilim, teknoloji ve macera kanalı.",
+    "genres": ["Belgesel"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
