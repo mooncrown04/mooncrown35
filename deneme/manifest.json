@@ -5,7 +5,7 @@
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
   "types": ["tv"],
-  "idPrefixes": ["ch","tv","tt"],
+  "idPrefixes": ["ch","tv","tt","mn_"],
   "catalogs": [
     { "id": "canli_tv", "type": "tv", "name": "📺 Canlı TV Kanalları" },
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
