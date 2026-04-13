@@ -1,66 +1,95 @@
 {
   "metas": [
-     {
-      "id": "star",
+    {
+      "id": "tarih_tv",
       "type": "tv",
-      "name": "Star TV",
-      "poster": "https://picon.pics/TR/Ulusal/Startv.png",
-      "background": "https://picon.pics/TR/Ulusal/Startv.png",
-      "logo": "https://picon.pics/TR/Ulusal/Startv.png",
-      "description": "Renkli içeriği ve iddialı dizileriyle Türkiye'nin ilk özel televizyonu.",
-      "genres": ["Eğlence"],
+      "name": "Tarih TV",
+      "poster": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+      "background": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+      "logo": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+      "description": "Geçmişin izinde, tarihin derinliklerine yolculuk.",
+      "genres": ["Belgesel", "Tarih"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın"
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "tarih_tv", "title": "Canlı Yayın" }]
     },
     {
-      "id": "nv_nat_geo",
+      "id": "discovery",
       "type": "tv",
-      "name": "National Geographic",
-      "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png",
-      "background": "https://www.natgeotv.com/content/dam/ngtv/images/backgrounds/nat-geo-bg.jpg",
-      "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png",
-      "description": "Bilim, keşif ve macera dolu dünyaca ünlü belgesel kanalı. Dünyayı ve ötesini National Geographic kalitesiyle keşfedin.",
+      "name": "Discovery Channel",
+      "poster": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+      "background": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+      "logo": "https://uscloudpanel.com/logo/galeri_MTY0M_419.png",
+      "description": "Dünyanın en popüler bilim ve teknoloji kanalı.",
       "genres": ["Belgesel", "Bilim"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
-      "trailers": [
-        {
-          "source": "Unw_66O_0S0",
-          "type": "Trailer"
-        }
-      ],
-      "videos": [
-        {
-          "id": "nv_nat_geo",
-          "title": "Canlı Yayın",
-          "released": "2024-01-01T00:00:00.000Z"
-        }
-      ]
+      "videos": [{ "id": "discovery", "title": "Canlı Yayın" }]
     },
     {
-      "id": "nv_trt_belgesel",
+      "id": "nat_geo_wild",
       "type": "tv",
-      "name": "TRT Belgesel",
-      "poster": "https://picon.pics/TR/Documentary/Trtbelgesel.png",
-      "background": "https://picon.pics/TR/Documentary/Trtbelgesel.png",
-      "logo": "https://picon.pics/TR/Documentary/Trtbelgesel.png",
-      "description": "İnsan, yaşam ve doğaya dair benzersiz hikayeler. TRT kalitesiyle hayatın içinden belgeseller.",
-      "genres": ["Belgesel", "Yaşam"],
+      "name": "Nat Geo Wild",
+      "poster": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+      "background": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+      "logo": "https://m.media-amazon.com/images/I/61rYWQU3MpL.jpg",
+      "description": "Vahşi doğanın en çarpıcı görüntüleri ve hayvanlar alemi.",
+      "genres": ["Belgesel", "Doğa"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
-      "trailers": [
-        {
-          "source": "7-pZzF_Vz0I",
-          "type": "Trailer"
-        }
-      ],
-      "videos": [
-        {
-          "id": "nv_trt_belgesel",
-          "title": "Canlı Yayın",
-          "released": "2024-01-01T00:00:00.000Z"
-        }
-      ]
+      "videos": [{ "id": "nat_geo_wild", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "ciftci_tv",
+      "type": "tv",
+      "name": "Çiftçi TV",
+      "poster": "https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png",
+      "background": "https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png",
+      "logo": "https://www.ciftcitv.com/wp-content/uploads/2021/02/favicon.png",
+      "description": "Tarım ve hayvancılık üzerine uzmanlaşmış Türkiye'nin tarım ekranı.",
+      "genres": ["Tarım", "Belgesel"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "ciftci_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "chill_tv",
+      "type": "tv",
+      "name": "Chill TV",
+      "poster": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+      "background": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+      "logo": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663101870451/taEcDziWxGeGuBRt.png",
+      "description": "Dinlendirici manzaralar ve rahatlatıcı içerikler.",
+      "genres": ["Yaşam", "Müzik"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "chill_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "tlc",
+      "type": "tv",
+      "name": "TLC",
+      "poster": "https://img-tlctv.mncdn.com/logo.png",
+      "background": "https://img-tlctv.mncdn.com/logo.png",
+      "logo": "https://img-tlctv.mncdn.com/logo.png",
+      "description": "Yaşam tarzı, emlak ve sıra dışı hayat hikayeleri.",
+      "genres": ["Yaşam", "Eğlence"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "tlc", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "dmax",
+      "type": "tv",
+      "name": "DMAX",
+      "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+      "background": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+      "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+      "description": "Maceracı ruhlar için zorlu görevler ve yaşam belgeselleri.",
+      "genres": ["Macera", "Yaşam"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "dmax", "title": "Canlı Yayın" }]
     }
   ]
 }
