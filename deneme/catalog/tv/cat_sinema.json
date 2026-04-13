@@ -1,1 +1,96 @@
 
+{
+  "metas": [
+    {
+      "id": "super_turk_tv",
+      "type": "tv",
+      "name": "Super Turk TV",
+      "poster": "https://i.hizliresim.com/ewi94xx.png",
+      "background": "https://i.hizliresim.com/ewi94xx.png",
+      "logo": "https://i.hizliresim.com/ewi94xx.png",
+      "description": "Kesintisiz yerli dizi ve sinema keyfi.",
+      "genres": ["Sinema", "Dizi"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "super_turk_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "sdm_sinema_keyfi",
+      "type": "tv",
+      "name": "SDM Sinema Keyfi",
+      "poster": "https://i.hizliresim.com/b6vpmd5.png",
+      "background": "https://i.hizliresim.com/b6vpmd5.png",
+      "logo": "https://i.hizliresim.com/b6vpmd5.png",
+      "description": "SDM TV kalitesiyle sinema dünyasından seçme yapımlar.",
+      "genres": ["Sinema"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "sdm_sinema_keyfi", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "fanatik_yesilcam",
+      "type": "tv",
+      "name": "Fanatik Yeşilçam",
+      "poster": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "background": "https://i.ytimg.com/vi/VqM1_V-Qp7A/maxresdefault.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "description": "Unutulmaz Türk sineması klasikleri ve Yeşilçam yıldızları.",
+      "genres": ["Yeşilçam", "Sinema"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "fanatik_yesilcam", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "fanatik_korku",
+      "type": "tv",
+      "name": "Fanatik Korku",
+      "poster": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "background": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "description": "Gerilim ve korku dolu sinema filmleri.",
+      "genres": ["Korku", "Sinema"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "fanatik_korku", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "fanatik_deadpool",
+      "type": "tv",
+      "name": "Fanatik Deadpool",
+      "poster": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "background": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "description": "Aksiyon ve mizahın buluştuğu özel film serileri.",
+      "genres": ["Aksiyon"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "fanatik_deadpool", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "fanatik_dag",
+      "type": "tv",
+      "name": "Fanatik Dağ",
+      "poster": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "background": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/b/b3/Fanatik_TV_logo.png",
+      "description": "Dağ filmi serisi ve benzeri epik aksiyon yapımları.",
+      "genres": ["Aksiyon", "Dram"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "fanatik_dag", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "kuzeymax_hd",
+      "type": "tv",
+      "name": "Kuzey Max HD",
+      "poster": "https://i.hizliresim.com/2qpuwst.jpg",
+      "background": "https://i.hizliresim.com/2qpuwst.jpg",
+      "logo": "https://i.hizliresim.com/2qpuwst.jpg",
+      "description": "KuzeyMax HD kalitesiyle dizi ve sinema kanalı.",
+      "genres": ["Dizi", "Sinema"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "kuzeymax_hd", "title": "Canlı Yayın" }]
+    }
+  ]
+}
