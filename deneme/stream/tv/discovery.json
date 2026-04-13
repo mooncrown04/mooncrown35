@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "MoOnCrOwN",
+      "title": "Discovery Channel | HD",
+      "url": "http://65.108.239.207:80/discovery/index.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "discovery"
+      }
+    }
+  ]
+}
