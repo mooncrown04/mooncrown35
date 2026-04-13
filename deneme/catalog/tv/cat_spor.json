@@ -1,7 +1,7 @@
 {
   "metas": [
     {
-      "id": "nv_trt_spor",
+      "id": "trt_spor",
       "type": "tv",
       "name": "TRT Spor",
       "poster": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
@@ -10,7 +10,7 @@
       "videos": [{ "id": "nv_trt_spor", "title": "Canlı Yayın" }]
     },
     {
-      "id": "nv_aspor",
+      "id": "aspor",
       "type": "tv",
       "name": "A Spor",
       "poster": "http://assets.tvcdn.net/14f4941c-00e7-4662-9a21-8203dc37b51a.png",
