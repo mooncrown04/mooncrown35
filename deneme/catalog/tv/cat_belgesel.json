@@ -1,5 +1,17 @@
 {
   "metas": [
+     {
+      "id": "star",
+      "type": "tv",
+      "name": "Star TV",
+      "poster": "https://picon.pics/TR/Ulusal/Startv.png",
+      "background": "https://picon.pics/TR/Ulusal/Startv.png",
+      "logo": "https://picon.pics/TR/Ulusal/Startv.png",
+      "description": "Renkli içeriği ve iddialı dizileriyle Türkiye'nin ilk özel televizyonu.",
+      "genres": ["Eğlence"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+    },
     {
       "id": "nv_nat_geo",
       "type": "tv",
