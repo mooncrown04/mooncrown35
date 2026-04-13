@@ -4,7 +4,7 @@
   "name": "Kendi TV Listem",
   "description": "Özel kategorize edilmiş canlı TV eklentisi.",
   "types": ["tv"],
-  "idPrefixes": ["ch", "tt"],
+  "idPrefixes": ["ch","tv","tt"],
   "catalogs": [
     { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar" },
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
