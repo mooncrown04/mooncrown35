@@ -1,0 +1,22 @@
+{
+  "metas": [
+    {
+      "id": "nv_nat_geo",
+      "type": "tv",
+      "name": "National Geographic",
+      "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png",
+      "description": "Dünyayı keşfedin.",
+      "genres": ["Belgesel"],
+      "videos": [{ "id": "nv_nat_geo", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "nv_trt_belgesel",
+      "type": "tv",
+      "name": "TRT Belgesel",
+      "poster": "https://picon.pics/TR/Documentary/Trtbelgesel.png",
+      "description": "İnsan, yaşam ve doğa.",
+      "genres": ["Belgesel"],
+      "videos": [{ "id": "nv_trt_belgesel", "title": "Canlı Yayın" }]
+    }
+  ]
+}
