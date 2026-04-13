@@ -1,1 +1,108 @@
-cat_muzik
+{
+  "metas": [
+    {
+      "id": "number_one_damar",
+      "type": "tv",
+      "name": "Number One Damar",
+      "poster": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",
+      "background": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",
+      "logo": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_44.png",
+      "description": "Arabesk müziğin en seçkin ve damar şarkıları.",
+      "genres": ["Müzik", "Arabesk"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "number_one_damar", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "number_one_turk",
+      "type": "tv",
+      "name": "Number One Türk",
+      "poster": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_43.png",
+      "background": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_43.png",
+      "logo": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_43.png",
+      "description": "Türkçe pop müziğin bir numaralı adresi.",
+      "genres": ["Müzik", "Pop"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "number_one_turk", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "power_tv",
+      "type": "tv",
+      "name": "Power TV",
+      "poster": "https://i.ibb.co/JrXDQJy/power-tv.png",
+      "background": "https://i.ibb.co/JrXDQJy/power-tv.png",
+      "logo": "https://i.ibb.co/JrXDQJy/power-tv.png",
+      "description": "Dünya müzik listelerinden en hit video klipler.",
+      "genres": ["Müzik", "Yabancı"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "power_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "power_turk_tv",
+      "type": "tv",
+      "name": "Power Türk",
+      "poster": "https://i.ibb.co/xXcBD2C/powerturk.png",
+      "background": "https://i.ibb.co/xXcBD2C/powerturk.png",
+      "logo": "https://i.ibb.co/xXcBD2C/powerturk.png",
+      "description": "Önce Müzik! En sevilen Türkçe pop klipleri.",
+      "genres": ["Müzik", "Türkçe Pop"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "power_turk_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "trt_muzik",
+      "type": "tv",
+      "name": "TRT Müzik",
+      "poster": "https://tv-trtmuzik.medya.trt.com.tr/img/logo.png",
+      "background": "https://tv-trtmuzik.medya.trt.com.tr/img/logo.png",
+      "logo": "https://tv-trtmuzik.medya.trt.com.tr/img/logo.png",
+      "description": "TRT'nin zengin müzik arşivinden seçkiler ve canlı performanslar.",
+      "genres": ["Müzik", "Kültür"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "trt_muzik", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "dream_turk",
+      "type": "tv",
+      "name": "Dream Türk",
+      "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png",
+      "background": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png",
+      "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/63d6800d-1ecb-40b6-bc2b-01a225f0d3ec.png",
+      "description": "Gençliğin ve müziğin buluştuğu nokta.",
+      "genres": ["Müzik", "Eğlence"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "dream_turk", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "power_turk_akustik",
+      "type": "tv",
+      "name": "Power Türk Akustik",
+      "poster": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2542.png",
+      "background": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2542.png",
+      "logo": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2542.png",
+      "description": "En sevilen şarkıların en doğal, akustik halleri.",
+      "genres": ["Müzik", "Akustik"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "power_turk_akustik", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "power_turk_slow",
+      "type": "tv",
+      "name": "Power Türk Slow",
+      "poster": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2450.png",
+      "background": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2450.png",
+      "logo": "https://cdn.powergroup.com.tr/image/200x200/powerapp/channels/v3/inverse/logo_2450.png",
+      "description": "Ruhunuzu dinlendiren en güzel Türkçe slow şarkılar.",
+      "genres": ["Müzik", "Slow"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "power_turk_slow", "title": "Canlı Yayın" }]
+    }
+  ]
+}
