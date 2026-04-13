@@ -1,7 +1,7 @@
 {
   "streams": [
     {
-      "name": "trt_spor",
+      "name": "TRT Spor",
       "title": "TrtSpor | Kesintisiz",
       "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
       "behaviorHints": {
