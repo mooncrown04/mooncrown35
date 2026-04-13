@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "beyaz_tv",
+      "title": "Beyaz TV |ULUSAL",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "beyaz-tv"
+      }
+    }
+  ]
+}
