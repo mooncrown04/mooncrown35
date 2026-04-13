@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "haber_turk",
+      "title": "Haber Türk | HABER",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "haber-turk"
+      }
+    }
+  ]
+}
