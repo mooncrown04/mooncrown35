@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "nv_nat_geo",
+    "type": "tv",
+    "name": "National Geographic",
+    "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png",
+    "background": "https://images.unsplash.com/photo-1500048993953-d23a436266cf", 
+    "description": "National Geographic, keşif ve bilim odaklı yayınlarıyla dünyayı keşfetmenizi sağlar.",
+    "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png"
+  }
+}
