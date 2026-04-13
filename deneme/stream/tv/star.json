@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "name": "star-deneme",
-      "title": "star | Kesintisiz",
+      "name": "star-simdi",
+      "title": "star1 | yeni",
       "url": "http://139.162.182.79/live/test/index.m3u8",
       "behaviorHints": {
         "notClickable": false,
