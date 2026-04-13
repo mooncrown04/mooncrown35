@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "MoOnCrOwN",
+      "title": "Tarih TV | Canlı",
+      "url": "http://stream.tvcdn.net/eglence/tarih-tv.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "tarih_tv"
+      }
+    }
+  ]
+}
