@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "dmax",
+    "type": "tv",
+    "name": "DMAX",
+    "poster": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+    "background": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+    "logo": "https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png",
+    "description": "Zorlu görevler, otomobiller ve gerçek hayatın içinden macera dolu yapımlar.",
+    "genres": ["Macera"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
