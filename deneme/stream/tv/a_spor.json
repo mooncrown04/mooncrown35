@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "name": "a_spor",
-      "title": "A Spor | yeni",
+      "name": "A Spor",
+      "title": "A Spor | SPOR",
       "url": "http://139.162.182.79/live/test/index.m3u8",
       "behaviorHints": {
         "notClickable": false,
