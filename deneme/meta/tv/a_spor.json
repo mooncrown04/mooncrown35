@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "a_spor",
+    "type": "tv",
+    "name": "A Spor",
+    "poster": "https://picon.pics/TR/Ulusal/Startv.png",
+    "background": "https://picon.pics/TR/Ulusal/Startv.png",
+    "logo": "https://i.imgur.com/Dlsm9XP.png",
+    "description": "Türkiye'nin ulusal Spor kanalı. Canlı yayınlar ve haberler.",
+    "genres": ["Spor"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
