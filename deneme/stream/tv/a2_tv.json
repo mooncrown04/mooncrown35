@@ -1,12 +1,12 @@
 {
   "streams": [
     {
-      "name": "a2",
-      "title": "A2 |ULUSAL",
+      "name": "a2_tv",
+      "title": "A2 Tv |ULUSAL",
       "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
       "behaviorHints": {
         "notClickable": false,
-        "bingeGroup": "a2"
+        "bingeGroup": "a2-tv"
       }
     }
   ]
