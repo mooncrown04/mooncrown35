@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tarih_tv",
+    "type": "tv",
+    "name": "Tarih TV",
+    "poster": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+    "background": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+    "logo": "http://assets.tvcdn.net/f438ceb7-c0a8-4b3c-9415-aea43a02b93e.png",
+    "description": "Geçmişin izinde, tarihin derinliklerine yolculuk. Belgeseller ve tarih sohbetleri.",
+    "genres": ["Belgesel"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
