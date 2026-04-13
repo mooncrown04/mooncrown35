@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tlc",
+    "type": "tv",
+    "name": "TLC",
+    "poster": "https://img-tlctv.mncdn.com/logo.png",
+    "background": "https://img-tlctv.mncdn.com/logo.png",
+    "logo": "https://img-tlctv.mncdn.com/logo.png",
+    "description": "Yaşam tarzı, emlak, sağlık ve sıra dışı hayat hikayelerinin buluşma noktası.",
+    "genres": ["Yaşam"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
