@@ -1,7 +1,7 @@
 {
   "id": "pw.ers.netflix-catalog",
   "version": "04",
-  "name": "MoOnCrOwN",
+  "name": "MoOnCrOwN-0o0",
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
   "types": ["movie", "series", "tv"],
