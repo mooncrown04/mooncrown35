@@ -7,13 +7,11 @@
   "types": ["tv"],
   "idPrefixes": ["ch","tv","tt","mn_"],
   "catalogs": [
-    { "id": "canli_tv", "type": "tv", "name": "📺 Canlı TV Kanalları" },
+    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar" },
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
     { "id": "cat_haber", "type": "tv", "name": "📰 Haber" },
     { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" },
     { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" },
-    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" },
-    { "id": "nfx_movies", "type": "movie", "name": "Netflix Movies" },
-    { "id": "dnp_movies", "type": "movie", "name": "Disney+ Movies" }
+    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" }
   ]
 }
