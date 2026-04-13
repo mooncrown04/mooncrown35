@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "bloomberg_ht",
+      "title": "Bloomberg HT | HABER",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "bloomberg-ht"
+      }
+    }
+  ]
+}
