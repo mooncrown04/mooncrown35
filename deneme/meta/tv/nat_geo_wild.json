@@ -9,6 +9,19 @@
     "description": "Vahşi doğanın en çarpıcı görüntüleri ve hayvanlar aleminin gizemleri.",
     "genres": ["Belgesel"],
     "releaseInfo": "LIVE",
-    "runtime": "Canlı Yayın"
+    "runtime": "Canlı Yayın",
+    "trailers": [
+      {
+        "source": "Mzw2ttJD2qQ",
+        "type": "Trailer"
+      }
+    ],
+    "videos": [
+      {
+        "id": "nat_geo_wild",
+        "title": "Canlı Yayın",
+        "released": "2024-01-01T00:00:00.000Z"
+      }
+    ]
   }
 }
