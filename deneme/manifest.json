@@ -1,53 +1,19 @@
 {
-  "id": "org.m3u.ozel.katalog",
-  "version": "1.0.0",
-  "name": "M3U Çoklu Katalog",
-  "description": "Kategorize edilmiş canlı TV listesi",
+  "id": "pw.ers.netflix-catalog",
+  "version": "04",
+  "name": "MoOnCrOwN",
+  "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
-  "types": ["tv"],
-  "idPrefixes": ["nv_", "tmdb_", "star_"],
+  "types": ["movie", "series", "tv"],
+  "idPrefixes": ["tt", "tv", "nv_"],
   "catalogs": [
-    {
-      "id": "cat_ulusal",
-      "type": "tv",
-      "name": "📺 Ulusal Kanallar"
-    },
-    {
-      "id": "cat_spor",
-      "type": "tv",
-      "name": "⚽ Spor Kanalları"
-    },
-    {
-      "id": "cat_sinema",
-      "type": "tv",
-      "name": "🎬 Sinema & Dizi"
-    }
-  ],
-  "metas": {
-    "cat_ulusal": [
-      {
-        "id": "nv_trt1",
-        "type": "tv",
-        "name": "TRT 1 HD",
-        "poster": "https://picon.pics/TR/Ulusal/Trt1.png",
-        "background": "https://image.tmdb.org/t/p/original/m638K19969vNIdvL5l6vUsh6pID.jpg",
-        "logo": "https://picon.pics/TR/Ulusal/Trt1.png",
-        "description": "TRT 1 Canlı Yayın",
-        "genres": ["Genel"],
-        "runtime": "Canlı",
-        "videos": [{ "id": "nv_trt1", "title": "Oynat" }]
-      }
-    ],
-    "cat_spor": [
-      {
-        "id": "nv_trt_spor",
-        "type": "tv",
-        "name": "TRT Spor",
-        "poster": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
-        "description": "Sporun adresi",
-        "genres": ["Spor"],
-        "videos": [{ "id": "nv_trt_spor", "title": "Oynat" }]
-      }
-    ]
-  }
+    { "id": "canli_tv", "type": "tv", "name": "📺 Canlı TV Kanalları" },
+    { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
+    { "id": "cat_haber", "type": "tv", "name": "📰 Haber" },
+    { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" },
+    { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" },
+    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" },
+    { "id": "nfx_movies", "type": "movie", "name": "Netflix Movies" },
+    { "id": "dnp_movies", "type": "movie", "name": "Disney+ Movies" }
+  ]
 }
