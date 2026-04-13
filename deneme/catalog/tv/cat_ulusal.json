@@ -1,1 +1,135 @@
 
+{
+  "metas": [
+    {
+      "id": "atv",
+      "type": "tv",
+      "name": "ATV",
+      "poster": "https://picon.pics/TR/Ulusal/Atv.png",
+      "background": "https://picon.pics/TR/Ulusal/Atv.png",
+      "logo": "https://picon.pics/TR/Ulusal/Atv.png",
+      "description": "Dizi ve eğlence programlarının adresi. 'Dizi ATV'de izlenir.'",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "atv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "trt1",
+      "type": "tv",
+      "name": "TRT 1",
+      "poster": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "background": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "logo": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "description": "Türkiye'nin ilk ulusal kanalı. Haber, spor ve aile dizilerinin buluşma noktası.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "trt1", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "kanald",
+      "type": "tv",
+      "name": "Kanal D",
+      "poster": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "background": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "logo": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "description": "Türkiye'nin kanalında en sevilen diziler ve programlar.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "kanald", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "show_tv",
+      "type": "tv",
+      "name": "Show TV",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png",
+      "background": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_of_Show_TV.png",
+      "description": "Show TV canlı yayını ile en sevilen diziler ve magazin dünyası.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "show_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "beyaz_tv",
+      "type": "tv",
+      "name": "Beyaz TV",
+      "poster": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+      "background": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+      "logo": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+      "description": "Beyaz TV canlı yayını ile popüler tartışma programları ve sinema.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "beyaz_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "now_tv",
+      "type": "tv",
+      "name": "Now TV",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1024px-NOW_TV_%28Turkey%29_wordmark-red.svg.png",
+      "background": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1024px-NOW_TV_%28Turkey%29_wordmark-red.svg.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/1024px-NOW_TV_%28Turkey%29_wordmark-red.svg.png",
+      "description": "Gündem belirleyen haberler ve iddialı dizileriyle Now TV.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "now_tv", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "kanal7",
+      "type": "tv",
+      "name": "Kanal 7",
+      "poster": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "background": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "logo": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "description": "Yerli diziler, Hint yapımları ve dini programların adresi.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "kanal7", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "tv8",
+      "type": "tv",
+      "name": "TV8",
+      "poster": "https://picon.pics/TR/Ulusal/Tv8.png",
+      "background": "https://picon.pics/TR/Ulusal/Tv8.png",
+      "logo": "https://picon.pics/TR/Ulusal/Tv8.png",
+      "description": "Eğlence kanalı TV8; Survivor, MasterChef ve daha fazlası.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "tv8", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "teve2",
+      "type": "tv",
+      "name": "Teve2",
+      "poster": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "background": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "logo": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "description": "Kelime Oyunu ve unutulmaz dizilerin kanalı.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "teve2", "title": "Canlı Yayın" }]
+    },
+    {
+      "id": "a2_tv",
+      "type": "tv",
+      "name": "A2 TV",
+      "poster": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",
+      "background": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",
+      "logo": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",
+      "description": "Ziraat Türkiye Kupası ve efsane dizilerin kanalı.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın",
+      "videos": [{ "id": "a2_tv", "title": "Canlı Yayın" }]
+    }
+  ]
+}
