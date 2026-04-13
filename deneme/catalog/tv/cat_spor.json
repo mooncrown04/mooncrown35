@@ -1,22 +1,22 @@
 {
   "metas": [
     {
-      "id": "mn_trt_spor",
+      "id": "trt_spor",
       "type": "tv",
       "name": "TRT Spor",
       "poster": "https://cdn-i.pr.trt.com.tr/trttv/w750/h750/q100/13687983.png",
       "description": "Sporun kalbi burada atıyor.",
       "genres": ["Spor"],
-      "videos": [{ "id": "mn_trt_spor", "title": "Canlı Yayın" }]
+      "videos": [{ "id": "trt_spor", "title": "Canlı Yayın" }]
     },
     {
-      "id": "mn_a_spor",
+      "id": "a_spor",
       "type": "tv",
       "name": "A Spor",
-      "poster": "http://assets.tvcdn.net/14f4941c-00e7-4662-9a21-8203dc37b51a.png",
+      "poster": "https://upload.wikimedia.org/wikipedia/tr/archive/e/e9/20140920094552%21A_Spor_logosu.png",
       "description": "7/24 Spor Haberleri",
       "genres": ["Spor"],
-      "videos": [{ "id": "mn_aspor", "title": "Canlı Yayın" }]
+      "videos": [{ "id": "a_spor", "title": "Canlı Yayın" }]
     }
   ]
 }
