@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "tgrt_haber",
+      "type": "tv",
+      "name": "TGRT Haber",
+      "poster": "https://picon.pics/TR/News/Tgrthaber.png",
+      "background": "https://picon.pics/TR/News/Tgrthaber.png",
+      "logo": "https://picon.pics/TR/News/Tgrthaber.png",
+      "description": "Hızlı, ilkeli ve güncel haber sunumuyla TGRT Haber.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
