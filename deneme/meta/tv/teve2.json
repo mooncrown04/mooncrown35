@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "teve2",
+      "type": "tv",
+      "name": "Teve2",
+      "poster": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "background": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "logo": "https://picon.pics/TR/Ulusal/Teve2.png",
+      "description": "Kelime Oyunu ve unutulmaz dizilerin kanalı.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
