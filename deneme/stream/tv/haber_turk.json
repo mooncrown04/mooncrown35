@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "haber_turk",
+      "name": "HABERTÜRK",
       "title": "Haber Türk | HABER",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "haber-turk"
