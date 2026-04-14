@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "atv",
+      "type": "tv",
+      "name": "ATV",
+      "poster": "https://picon.pics/TR/Ulusal/Atv.png",
+      "background": "https://picon.pics/TR/Ulusal/Atv.png",
+      "logo": "https://picon.pics/TR/Ulusal/Atv.png",
+      "description": "Dizi ve eğlence programlarının adresi. 'Dizi ATV'de izlenir.'",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
