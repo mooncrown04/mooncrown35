@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "flash haber",
+      "name": "FLASH HABER",
       "title": "Flash Haber | HABER",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "flash-haber"
