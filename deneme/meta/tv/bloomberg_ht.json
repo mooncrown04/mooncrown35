@@ -1,0 +1,14 @@
+{
+  "meta": {
+     "id": "bloomberg_ht",
+      "type": "tv",
+      "name": "Bloomberg HT",
+      "poster": "https://picon.pics/TR/News/Bloomberg.png",
+      "background": "https://picon.pics/TR/News/Bloomberg.png",
+      "logo": "https://picon.pics/TR/News/Bloomberg.png",
+      "description": "Ekonomi, finans ve piyasaların kalbi burada atıyor.",
+      "genres": ["Haber", "Ekonomi"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
