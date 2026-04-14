@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "cnn_turk",
+      "type": "tv",
+      "name": "CNN Türk",
+      "poster": "http://epg.one/img2/2606.png",
+      "background": "http://epg.one/img2/2606.png",
+      "logo": "http://epg.one/img2/2606.png",
+      "description": "Dünyadan ve Türkiye'den son dakika haberleri, tarafsız ve hızlı.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
