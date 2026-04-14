@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "haber_turk",
+      "type": "tv",
+      "name": "HABERTÜRK",
+      "poster": "http://epg.one/img2/3979.png",
+      "background": "http://epg.one/img2/3979.png",
+      "logo": "http://epg.one/img2/3979.png",
+      "description": "Gündemin nabzını tutan özel dosyalar ve canlı yayın akışı.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
