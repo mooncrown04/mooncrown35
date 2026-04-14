@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "flash_haber",
+      "type": "tv",
+      "name": "Flash Haber",
+      "poster": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "background": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "logo": "https://www.lyngsat.com/logo/tv/ff/flash-haber-tv-tr.png",
+      "description": "Sıcak gelişmeler ve özel haber kuşaklarıyla canlı yayın.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
