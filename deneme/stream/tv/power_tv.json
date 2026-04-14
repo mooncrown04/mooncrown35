@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "POWER TV",
+      "title": "POWER TV |MÜZİK",
+      "url": "https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "power_tv"
+      }
+    }
+  ]
+}
