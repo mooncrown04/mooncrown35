@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "kanal7",
+      "name": "KANAL 7",
       "title": "Kanal 7 |ULUSAL",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_720p.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "kanal7"
