@@ -2,7 +2,7 @@
   "streams": [
     {
       "name": "Nat Geo Wild",
-      "title": "Nat Geo Wild | HD",
+      "title": "Nat Geo Wild | BELGESEL",
       "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
       "behaviorHints": {
         "notClickable": false,
