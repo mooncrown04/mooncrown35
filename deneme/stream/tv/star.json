@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "star-simdi",
-      "title": "star1 | yeni",
-      "url": "http://139.162.182.79/live/test/index.m3u8",
+      "name": "STAR TV",
+      "title": "STAR TV | ULUSAL",
+      "url": "https://dogus.daioncdn.net/startv/startv.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "star-tv"
