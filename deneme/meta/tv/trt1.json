@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "trt1",
+      "type": "tv",
+      "name": "TRT 1",
+      "poster": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "background": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "logo": "https://picon.pics/TR/Ulusal/Trt1.png",
+      "description": "Türkiye'nin ilk ulusal kanalı. Haber, spor ve aile dizilerinin buluşma noktası.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
