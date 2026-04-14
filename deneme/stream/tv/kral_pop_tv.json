@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "KRAL POP TV",
+      "title": "KRAL POP TV | MÜZİK ",
+      "url": "https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "kral_pop_tv"
+      }
+    }
+  ]
+}
