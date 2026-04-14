@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "trt_haber",
+      "type": "tv",
+      "name": "TRT Haber",
+      "poster": "https://picon.pics/TR/News/Trthaber.png",
+      "background": "https://picon.pics/TR/News/Trthaber.png",
+      "logo": "https://picon.pics/TR/News/Trthaber.png",
+      "description": "Türkiye'nin resmi haber kanalı. Doğru ve güvenilir haberin adresi.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
