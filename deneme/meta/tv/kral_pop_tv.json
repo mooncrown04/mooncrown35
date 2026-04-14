@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "kral_pop_tv",
+      "type": "tv",
+      "name": "KRAL POP TV",
+      "poster": "https://i.hizliresim.com/dfpvmuw.png",
+      "background": "https://i.hizliresim.com/dfpvmuw.png",
+      "logo": "https://i.hizliresim.com/dfpvmuw.png",
+      "description": "Türkçe pop müziğin bir numaralı adresi.",
+      "genres": ["Müzik", "Pop"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
