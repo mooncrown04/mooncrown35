@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "kanal7",
+      "type": "tv",
+      "name": "Kanal 7",
+      "poster": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "background": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "logo": "https://picon.pics/TR/Ulusal/Kanal7.png",
+      "description": "Yerli diziler, Hint yapımları ve dini programların adresi.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
