@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "name": "MoOnCrOwN",
-      "title": "DMAX | Kesintisiz",
+      "name": "DMAX",
+      "title": "DMAX | BELGESEL",
       "url": "https://dogus-live.daioncdn.net/dmax/dmax.m3u8?app=web",
       "behaviorHints": {
         "notClickable": false,
