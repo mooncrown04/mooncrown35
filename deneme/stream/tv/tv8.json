@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "tv8",
+      "name": "TV 8",
       "title": "tv 8 |ULUSAL",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "tv8"
