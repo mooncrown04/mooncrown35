@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "DREAM TÜRK",
+      "title": "DREAM TÜRK |MÜZİK",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "dream_turk"
+      }
+    }
+  ]
+}
