@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "sozcu_tv",
+      "type": "tv",
+      "name": "Sözcü TV",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "background": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%B6zc%C3%BC_TV_logo.png",
+      "description": "Halkın sesi, gerçeklerin adresi. Güncel siyaset ve yaşam haberleri.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
