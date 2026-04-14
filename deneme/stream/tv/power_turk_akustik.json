@@ -2,7 +2,7 @@
   "streams": [
     {
       "name": "POWER TÜRK AKUSTİK",
-      "title": "POWER TÜRK AKUSTİK",
+      "title": "POWER TÜRK AKUSTİK | MÜZİK",
       "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
       "behaviorHints": {
         "notClickable": false,
