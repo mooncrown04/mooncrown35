@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "tgrt_haber",
+      "name": "TGRT HABER",
       "title": "TGRT Haber | HABER",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "tgrt-haber"
