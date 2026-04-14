@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "name": "MoOnCrOwN",
-      "title": "Tarih TV | Canlı",
+      "name": "TARİH TV",
+      "title": "Tarih TV | BELGESEL",
       "url": "http://stream.tvcdn.net/eglence/tarih-tv.m3u8",
       "behaviorHints": {
         "notClickable": false,
