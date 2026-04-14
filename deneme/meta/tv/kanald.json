@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "kanald",
+      "type": "tv",
+      "name": "Kanal D",
+      "poster": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "background": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "logo": "https://i.ibb.co/hf2mSz5/kanal-d.png",
+      "description": "Türkiye'nin kanalında en sevilen diziler ve programlar.",
+      "genres": ["Ulusal"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
