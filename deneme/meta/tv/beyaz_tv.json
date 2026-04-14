@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "beyaz_tv",
+    "type": "tv",
+    "name": "Beyaz Tv",
+    "poster": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+    "background": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+    "logo": "https://picon.pics/TR/Ulusal/Beyaztv.png",
+    "description": "Beyaz tv kalitesiyle keşfedin.",
+    "genres": ["ulusal"],
+    "releaseInfo": "LIVE",
+    "runtime": "Canlı Yayın"
+  }
+}
