@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "name": "MoOnCrOwN",
-      "title": "TRT Belgesel | HD",
+      "name": "TRT BELGESEL",
+      "title": "TRT Belgesel | BELGESEL",
       "url": "https://tv-trtbelgesel-dash.medya.trt.com.tr/master.mpd",
       "behaviorHints": {
         "notClickable": false,
