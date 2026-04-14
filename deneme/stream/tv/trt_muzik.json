@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "name": "TRT MÜZİK",
+      "title": "TRT MÜZİK |MÜZİK",
+      "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "behaviorHints": {
+        "notClickable": false,
+        "bingeGroup": "trt_muzik"
+      }
+    }
+  ]
+}
