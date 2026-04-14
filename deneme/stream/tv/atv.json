@@ -1,9 +1,9 @@
 {
   "streams": [
     {
-      "name": "atv",
+      "name": "ATV",
       "title": "ATV |ULUSAL",
-      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "url": "http://89.187.191.41/ATV-HD-TR/video.m3u8",
       "behaviorHints": {
         "notClickable": false,
         "bingeGroup": "atv"
