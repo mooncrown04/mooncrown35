@@ -1,0 +1,14 @@
+{
+  "meta": {
+      "id": "a_haber",
+      "type": "tv",
+      "name": "A Haber",
+      "poster": "https://picon.pics/TR/News/Ahaber.png",
+      "background": "https://picon.pics/TR/News/Ahaber.png",
+      "logo": "https://picon.pics/TR/News/Ahaber.png",
+      "description": "Gündemin nabzını tutan özel dosyalar ve canlı yayın akışı.",
+      "genres": ["Haber"],
+      "releaseInfo": "LIVE",
+      "runtime": "Canlı Yayın"
+  }
+}
