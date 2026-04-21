@@ -20,9 +20,9 @@
       ]
     },
 {
-  "id": "atv",
+  "id": "862151476",
   "type": "movie",
-  "name": "Pluto TV Drama",
+  "name": "Pluto TV Dr11",
   "poster": "...",
   "videos": [
     {
@@ -33,9 +33,9 @@
 }
     ,
     {
-      "id": "pluto:58989569b32938166d34e26a", 
+      "id": "862151476", 
       "type": "tv",
-      "name": "Estrella TV (MoOn Test)",
+      "name": "halk tv",
       "poster": "https://picon.pics/TR/Ulusal/Atv.png", 
       "logo": "https://picon.pics/TR/Ulusal/Atv.png",
       "videos": [
