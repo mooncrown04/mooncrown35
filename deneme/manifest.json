@@ -2,15 +2,17 @@
   "id": "MoOnCrOwN-catalog",
   "version": "04",
   "name": "MoOnCrOwN TV",
-  "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
+  "idPrefixes": ["mn_"], 
   "resources": ["catalog", "meta", "stream"],
   "types": ["tv"],
   "catalogs": [
-    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"}] },
-    { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası","extra":[{"name":"search"}] },
-    { "id": "cat_haber", "type": "tv", "name": "📰 Haber" ,"extra":[{"name":"search"}] },
-    { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" ,"extra":[{"name":"search"}] },
-    { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" ,"extra":[{"name":"search"}] },
-    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" ,"extra":[{"name":"search"}] }
+    {
+      "id": "cat_ulusal",
+      "type": "tv",
+      "name": "📺 Ulusal Kanallar",
+      "extra": [
+        { "name": "search", "isRequired": false }
+      ]
+    }
   ]
 }
