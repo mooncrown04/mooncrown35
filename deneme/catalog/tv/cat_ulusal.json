@@ -1,8 +1,8 @@
 {
   "metas": [
  {
-  "id": "tt123456",
-  "type": "tv",
+  "id": "rambo",
+  "type": "movie",
   "name": "HALK TV",
   "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
   "videos": [
@@ -59,7 +59,7 @@
   ]
 },
     {
-  "id": "123456",
+  "id": "rambo",
   "type": "tv",
   "name": "HALK TV",
   "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
