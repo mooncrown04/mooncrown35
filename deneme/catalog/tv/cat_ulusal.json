@@ -1,8 +1,8 @@
 {
   "metas": [
  {
-  "id": "rambo",
-  "type": "movie",
+  "id": "105",
+  "type": "tv",
   "name": "HALK TV",
   "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
   "videos": [
@@ -10,72 +10,29 @@
       "id": "862151476",
       "title": "Canlı Yayın",
       "tvgId": "HalkTV.tr",
-      "streams": [
-        {
-          "title": "MoOnCrOwN TV",
-          "url": "http://139.162.182.79/live/halktv.m3u8"
-        }
-      ]
-    }
-  ]
+
 },
     
    {
-  "id": "halk-tv",
+  "id": "halk tv",
   "type": "tv",
   "name": "HALK TV",
-  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
-  "videos": [
-    {
-      "id": "862151476",
-      "title": "Canlı Yayın",
-      "tvgId": "HalkTV.tr",
-      "streams": [
-        {
-          "title": "MoOnCrOwN TV",
-          "url": "http://139.162.182.79/live/halktv.m3u8"
-        }
-      ]
-    }
-  ]
+  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
 },
     {
-  "id": "tt2356566",
-  "type": "movie",
+  "id": "Atv",
+  "type": "tv",
   "name": "Süper Mario Kardeşler Filmi",
   "releaseInfo": "2023",
-  "poster": "https://image.tmdb.org/t/p/w500/qNBA9AtI4YpP7gao7id887S7u95.jpg",
-  "videos": [
-    {
-      "id": "tt2356566",
-      "title": "MoOnCrOwN - 4K İzle",
-      "streams": [
-        {
-          "title": "Ana Sunucu",
-          "url": "http://139.162.182.79/movie/mario.m3u8"
-        }
-      ]
-    }
-  ]
+  "poster": "https://image.tmdb.org/t/p/w500/qNBA9AtI4YpP7gao7id887S7u95.jpg"
+ 
 },
     {
-  "id": "rambo",
+  "id": "Halk",
   "type": "tv",
   "name": "HALK TV",
-  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
-  "videos": [
-    {
-      "id": "862151476",
-      "title": "Canlı Yayın",
-      "tvgId": "HalkTV.tr",
-      "streams": [
-        {
-          "title": "MoOnCrOwN TV",
-          "url": "http://139.162.182.79/live/halktv.m3u8"
-        }
-      ]
-    }
-  ]
+  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
+
 },
      {
   "id": "tt4154756", 
