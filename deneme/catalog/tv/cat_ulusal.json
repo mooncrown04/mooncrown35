@@ -1,38 +1,5 @@
 {
-  "metas": [
-
-     {
-  "id": "tt4154756", 
-  "type": "movie",
-  "name": "Avengers: Infinity War",
-  "releaseInfo": "2018",
-  "poster": "https://image.tmdb.org/t/p/w500/7WsyChQZ3ZBU02pXBs9Ue0aLZHG.jpg"
-},
-    {
-      "id": "tt6718170",
-      "type": "movie",
-      "name": "Infinity War",
-      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQZ3ZBU02pXBs9Ue0aLZHG.jpg",
-      "streams": [
-        {
-          "title": "1080p İzle",
-          "url": "http://139.162.182.79/live/test/index.m3u8"
-        }
-      ]
-    },
-{
-  "id": "862151476",
-  "type": "movie",
-  "name": "Pluto TV Dr11",
-  "poster": "...",
-  "videos": [
-    {
-      "id": "pluto%3A58989569b32938166d34e26a",
-      "title": "Canlı Yayın"
-    }
-  ]
-  }
-    ,
+  "metas": [   
     {
       "id": "atv",
       "type": "tv",
@@ -44,8 +11,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "2026",
       "runtime": "Canlı Yayın",
-      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"],
-      "videos": [{ "id": "atv", "title": "Canlı Yayın" }]
+      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"]
     },
     {
       "id": "trt1",
@@ -56,10 +22,9 @@
       "logo": "https://picon.pics/TR/Ulusal/Trt1.png",
       "description": "Türkiye'nin ilk ulusal kanalı. Haber, spor ve aile dizilerinin buluşma noktası.",
       "genres": ["Ulusal"],
-      "releaseInfo": "LIVE",
+      "releaseInfo": "2026",
       "runtime": "Canlı Yayın",
-      "search_keys": ["trt 1 hd", "trt1", "trt 1 canli", "trt 1 izle"],
-      "videos": [{ "id": "trt1", "title": "Canlı Yayın" }]
+      "search_keys": ["trt 1 hd", "trt1", "trt 1 canli", "trt 1 izle"]
     },
     {
       "id": "kanald",
