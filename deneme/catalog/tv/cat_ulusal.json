@@ -1,12 +1,12 @@
 {
   "metas": [
     {
-      "id": "mn_atv", // Senin benzersiz ID'n
+      "id": "mn_atv",
       "name": "ATV1",
       "type": "tv",
       "videos": [
         {
-          "id": "atv", // Uygulama bunu alıp "atv" kelimesini tüm eklentilerde aratmalı
+          "id": "atv",
           "title": "Canlı Yayın"
         }
       ]
