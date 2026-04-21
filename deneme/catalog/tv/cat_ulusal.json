@@ -1,13 +1,14 @@
 {
   "metas": [
-    {
-      "id": "mn_atv",
-      "name": "ATV1",
-      "type": "tv",
-      "videos": [
+     {
+      "id": "tt6718170",
+      "type": "movie",
+      "name": "Infinity War",
+      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQZ3ZBU02pXBs9Ue0aLZHG.jpg",
+      "streams": [
         {
-          "id": "atv",
-          "title": "Canlı Yayın"
+          "title": "1080p İzle",
+          "url": "http://139.162.182.79/live/test/index.m3u8"
         }
       ]
     },
