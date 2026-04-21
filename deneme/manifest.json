@@ -1,7 +1,7 @@
 {
   "id": "MoOnCrOwN-catalog",
   "version": "04",
-  "name": "MoOnCrOwN-0o0",
+  "name": "MoOnCrOwN-Tv-0o0",
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
   "types": ["tv"],
