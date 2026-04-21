@@ -1,5 +1,16 @@
 {
   "metas": [
+    {
+      "id": "mn_atv", // Senin benzersiz ID'n
+      "name": "ATV1",
+      "type": "tv",
+      "videos": [
+        {
+          "id": "atv", // Uygulama bunu alıp "atv" kelimesini tüm eklentilerde aratmalı
+          "title": "Canlı Yayın"
+        }
+      ]
+    },
 {
   "id": "pluto%3A58989569b32938166d34e26a",
   "type": "tv",
