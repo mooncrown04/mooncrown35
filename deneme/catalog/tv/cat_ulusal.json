@@ -1,36 +1,6 @@
 {
   "metas": [
- {
-  "id": "213",
-  "type": "tv",
-  "name": "HALK TV",
-   "releaseInfo": "2018 mooncrown",
-  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
 
-},
-    
-   {
-  "id": "49",
-  "type": "tv",
-  "name": "HALK TV",
-  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
-},
-    {
-  "id": "Atv",
-  "type": "tv",
-  "name": "Süper Mario Kardeşler Filmi",
-  "releaseInfo": "2023",
-  "poster": "https://image.tmdb.org/t/p/w500/qNBA9AtI4YpP7gao7id887S7u95.jpg"
- 
-},
-    {
-  "id": "Halk",
-  "type": "tv",
-  "name": "HALK TV",
-    "releaseInfo": "21.03.2018",       
-  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
-
-},
      {
   "id": "tt4154756", 
   "type": "movie",
@@ -72,7 +42,7 @@
       "logo": "https://picon.pics/TR/Ulusal/Atv.png",
       "description": "Dizi ve eğlence programlarının adresi. 'Dizi ATV'de izlenir.'",
       "genres": ["Ulusal"],
-      "releaseInfo": "LIVE",
+      "releaseInfo": "2026",
       "runtime": "Canlı Yayın",
       "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"],
       "videos": [{ "id": "atv", "title": "Canlı Yayın" }]
