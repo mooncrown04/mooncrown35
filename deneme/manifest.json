@@ -1,17 +1,16 @@
 {
   "id": "MoOnCrOwN-catalog",
   "version": "04",
-  "name": "MoOnCrOwN-Tv-0o0",
+  "name": "MoOnCrOwN TV",
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
   "types": ["tv"],
-  "idPrefixes": ["ch","tv","tt","mn_"],
   "catalogs": [
     { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"}] },
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası","extra":[{"name":"search"}] },
     { "id": "cat_haber", "type": "tv", "name": "📰 Haber" ,"extra":[{"name":"search"}] },
     { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" ,"extra":[{"name":"search"}] },
     { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" ,"extra":[{"name":"search"}] },
-    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" },{"type":"tv","id":"pluto_popular","name":"moonPluto TV Popular Channels"}
+    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" ,"extra":[{"name":"search"}] }
   ]
 }
