@@ -1,7 +1,7 @@
 {
   "metas": [
     {
-      "id": "atv1",
+      "id": "pluto:atv_moon_test",
       "type": "tv",
       "name": "ATV1",
       "poster": "https://picon.pics/TR/Ulusal/Atv.png",
@@ -11,13 +11,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
-      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"],
-      "videos": [
-        {
-          "id": "pluto:atv_moon_test", 
-          "title": "Canlı Yayın (Eşleşme Testi)"
-        }
-      ]
+      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"],    
     },
     
     
