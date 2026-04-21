@@ -1,11 +1,11 @@
 {
   "id": "MoOnCrOwN-catalog",
   "version": "04",
-  "name": "MoOnCrOwN-0o0",
+  "name": "MoOnCrOwN-0o0-tv",
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog", "meta", "stream"],
   "types": ["tv"],
-  "idPrefixes": ["ch","tv","tt","mn_"],
+  "idPrefixes": ["ch","mn_"],
   "catalogs": [
     { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar" },
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
