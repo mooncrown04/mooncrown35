@@ -1,5 +1,44 @@
 {
   "metas": [
+
+    {
+  "id": "tt2356566",
+  "type": "movie",
+  "name": "Süper Mario Kardeşler Filmi",
+  "releaseInfo": "2023",
+  "poster": "https://image.tmdb.org/t/p/w500/qNBA9AtI4YpP7gao7id887S7u95.jpg",
+  "videos": [
+    {
+      "id": "tt2356566",
+      "title": "MoOnCrOwN - 4K İzle",
+      "streams": [
+        {
+          "title": "Ana Sunucu",
+          "url": "http://139.162.182.79/movie/mario.m3u8"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "id": "862151476",
+  "type": "tv",
+  "name": "HALK TV",
+  "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png",
+  "videos": [
+    {
+      "id": "862151476",
+      "title": "Canlı Yayın",
+      "tvgId": "HalkTV.tr",
+      "streams": [
+        {
+          "title": "MoOnCrOwN TV",
+          "url": "http://139.162.182.79/live/halktv.m3u8"
+        }
+      ]
+    }
+  ]
+},
      {
   "id": "tt4154756", 
   "type": "movie",
@@ -30,21 +69,7 @@
       "title": "Canlı Yayın"
     }
   ]
-}
-    ,
-    {
-      "id": "862151476", 
-      "type": "tv",
-      "name": "halk tv",
-      "poster": "https://picon.pics/TR/Ulusal/Atv.png", 
-      "logo": "https://picon.pics/TR/Ulusal/Atv.png",
-      "videos": [
-        {
-          "id": "pluto:58989569b32938166d34e26a",
-          "title": "MoOnCrOwN Cross-Match Test"
-        }
-      ]
-    }
+  }
     ,
     {
       "id": "atv",
