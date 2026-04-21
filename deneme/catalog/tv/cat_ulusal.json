@@ -4,6 +4,7 @@
   "id": "213",
   "type": "tv",
   "name": "HALK TV",
+   "releaseInfo": "2018 mooncrown",
   "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
 
 },
@@ -26,6 +27,7 @@
   "id": "Halk",
   "type": "tv",
   "name": "HALK TV",
+    "releaseInfo": "21.03.2018",       
   "poster": "https://i.ibb.co/DYhmg6k/halk-tv.png"
 
 },
