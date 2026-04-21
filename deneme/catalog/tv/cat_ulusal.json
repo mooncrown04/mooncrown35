@@ -1,4 +1,3 @@
-
 {
   "metas": [
     {
@@ -12,6 +11,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"],
       "videos": [{ "id": "atv", "title": "Canlı Yayın" }]
     },
     {
@@ -25,6 +25,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["trt 1 hd", "trt1", "trt 1 canli", "trt 1 izle"],
       "videos": [{ "id": "trt1", "title": "Canlı Yayın" }]
     },
     {
@@ -38,6 +39,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["kanal d hd", "kanald", "kanal d canli", "kanal d izle"],
       "videos": [{ "id": "kanald", "title": "Canlı Yayın" }]
     },
     {
@@ -51,6 +53,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["show tv hd", "showtv", "show tv canli", "show haber"],
       "videos": [{ "id": "show_tv", "title": "Canlı Yayın" }]
     },
     {
@@ -64,6 +67,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["beyaz tv hd", "beyaztv", "beyaz tv canli"],
       "videos": [{ "id": "beyaz_tv", "title": "Canlı Yayın" }]
     },
     {
@@ -77,6 +81,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["now tv hd", "nowtv", "now tv canli", "fox tv", "fox haber"],
       "videos": [{ "id": "now_tv", "title": "Canlı Yayın" }]
     },
     {
@@ -90,6 +95,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["kanal 7 hd", "kanal7", "kanal 7 canli", "kanal 7 avrupa"],
       "videos": [{ "id": "kanal7", "title": "Canlı Yayın" }]
     },
     {
@@ -103,6 +109,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["tv8 hd", "tv8", "tv8 canli", "tv8.5"],
       "videos": [{ "id": "tv8", "title": "Canlı Yayın" }]
     },
     {
@@ -116,6 +123,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["teve2 hd", "teve2", "teve 2 canli"],
       "videos": [{ "id": "teve2", "title": "Canlı Yayın" }]
     },
     {
@@ -129,6 +137,7 @@
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
       "runtime": "Canlı Yayın",
+      "search_keys": ["a2 hd", "a2 tv", "a2 canli", "a2 tv hd"],
       "videos": [{ "id": "a2_tv", "title": "Canlı Yayın" }]
     }
   ]
