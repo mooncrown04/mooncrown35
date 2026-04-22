@@ -10,8 +10,7 @@
       "description": "Dizi ve eğlence programlarının adresi. 'Dizi ATV'de izlenir.'",
       "genres": ["Ulusal"],
       "releaseInfo": "2026",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["atv hd", "atv tv", "atv canli", "atv haber"]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "trt1",
@@ -23,8 +22,7 @@
       "description": "Türkiye'nin ilk ulusal kanalı. Haber, spor ve aile dizilerinin buluşma noktası.",
       "genres": ["Ulusal"],
       "releaseInfo": "2026",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["trt 1 hd", "trt1", "trt 1 canli", "trt 1 izle"]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "kanald",
@@ -36,9 +34,7 @@
       "description": "Türkiye'nin kanalında en sevilen diziler ve programlar.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["kanal d hd", "kanald", "kanal d canli", "kanal d izle"],
-      "videos": [{ "id": "kanald", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "show_tv",
@@ -50,9 +46,7 @@
       "description": "Show TV canlı yayını ile en sevilen diziler ve magazin dünyası.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["show tv hd", "showtv", "show tv canli", "show haber"],
-      "videos": [{ "id": "show_tv", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "beyaz_tv",
@@ -64,9 +58,7 @@
       "description": "Beyaz TV canlı yayını ile popüler tartışma programları ve sinema.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["beyaz tv hd", "beyaztv", "beyaz tv canli"],
-      "videos": [{ "id": "beyaz_tv", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "now_tv",
@@ -78,9 +70,7 @@
       "description": "Gündem belirleyen haberler ve iddialı dizileriyle Now TV.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["now tv hd", "nowtv", "now tv canli", "fox tv", "fox haber"],
-      "videos": [{ "id": "now_tv", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "kanal7",
@@ -92,9 +82,7 @@
       "description": "Yerli diziler, Hint yapımları ve dini programların adresi.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["kanal 7 hd", "kanal7", "kanal 7 canli", "kanal 7 avrupa"],
-      "videos": [{ "id": "kanal7", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "tv8",
@@ -106,9 +94,7 @@
       "description": "Eğlence kanalı TV8; Survivor, MasterChef ve daha fazlası.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["tv8 hd", "tv8", "tv8 canli", "tv8.5"],
-      "videos": [{ "id": "tv8", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "teve2",
@@ -120,9 +106,7 @@
       "description": "Kelime Oyunu ve unutulmaz dizilerin kanalı.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["teve2 hd", "teve2", "teve 2 canli"],
-      "videos": [{ "id": "teve2", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     },
     {
       "id": "a2_tv",
@@ -134,9 +118,7 @@
       "description": "Ziraat Türkiye Kupası ve efsane dizilerin kanalı.",
       "genres": ["Ulusal"],
       "releaseInfo": "LIVE",
-      "runtime": "Canlı Yayın",
-      "search_keys": ["a2 hd", "a2 tv", "a2 canli", "a2 tv hd"],
-      "videos": [{ "id": "a2_tv", "title": "Canlı Yayın" }]
+      "runtime": "Canlı Yayın"
     }
   ]
 }
