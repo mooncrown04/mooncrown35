@@ -1,5 +1,11 @@
 {
-  "metas": [
+  "metas": [{"id":"iptv_c26ad52efefe6de8",
+	"type":"tv",
+	"name":"360",
+	"description":"📡 Live Channel",
+	"poster":"https://yt3.googleusercontent.com/ytc/AIdro_kZVDU4urtdSMj-Ubv76W22JRs-GiLQN1UA29bzu4aa6uk",
+	"genres":["Ulusal Kanallar"],
+	"runtime":"Live"},
     {
       "id": "tarih_tv",
       "type": "tv",
