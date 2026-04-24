@@ -15,7 +15,7 @@
 {"type":"Podcasts","id":"community","name":"Community"},
 {"type":"other","id":"community","name":"Community"}],
 "catalogs":[{"type":"Podcasts","id":"top","genres":["ayat","arat","arab","yenir","edy,"ern"],
-"extra":[{"name":"genre","options":["Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western"]},
+"extra":[{"name":"genre","options":["Action","Adventure","Animation","Biography","Comedy","War","Western"]},
 {"name":"search"},{"name":"skip"}],"extraSupported":["search","genre","skip"],
 "name":"AYTAC Popular"},
 {"type":"series","id":"top","genres":["Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western","Reality-TV","Talk-Show","Game-Show"],
