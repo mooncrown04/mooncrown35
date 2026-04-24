@@ -1,29 +1,13 @@
-			  
 	{
   "id": "MoOnCrOwN-catalog",
   "version": "04",
-  "name": "MoOnCrOwN-0o0-tv22",
+  "name": "MoOnCrOwN--tv",
   "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
-  "resources": ["catalog","meta","stream","addon_catalog"]
+  "resources": ["catalog","meta","stream"],
   "types": ["tv"],
-  "addonCatalogs":[
-{"type":"all","id":"official","name":"Official"},
-{"type":"movie","id":"official","name":"Official"},
-{"type":"series","id":"official","name":"Official"},
-{"type":"channel","id":"official","name":"Official"},
-{"type":"all","id":"community","name":"Community"},
-{"type":"movie","id":"community","name":"Community"},
-{"type":"series","id":"community","name":"Community"},
-{"type":"channel","id":"community","name":"Community"},
-{"type":"tv","id":"community","name":"Community"},
-{"type":"Podcasts","id":"community","name":"Community"},
-{"type":"other","id":"community","name":"Community"}],
+  "extraSupported": ["search"],
   "catalogs": [
-	 {"type":"tv","id":"top","genres":["ayat","arat","arab","yenir"],
-"extra":[{"name":"genre","options":["Action","Adventure","Animation","Family","Fantasy","History","Horror","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western"]},
-{"name":"search"},{"name":"skip"}],"extraSupported":["search","genre","skip"],
-"name":"AYTAC Popular"}, 
-    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"},{"name":"skip"}],"genres":["spor","Ulusal Kanallar","Vizitv"]},
+    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"},{"name":"skip"}]},
     { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası","extra":[{"name":"search"},{"name":"skip"}]},
     { "id": "cat_haber", "type": "tv", "name": "📰 Haber","extra":[{"name":"search"},{"name":"skip"}]},
     { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi","extra":[{"name":"search"},{"name":"skip"}]},
@@ -32,4 +16,4 @@
   ]
   "idPrefixes": ["ch","iptv_"],
 "behaviorHints":{"configurable":true,"configurationRequired":false}
-}		  
+}
