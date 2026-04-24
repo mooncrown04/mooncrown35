@@ -1,17 +1,20 @@
+			  
 	{
   "id": "MoOnCrOwN-catalog",
   "version": "04",
   "name": "MoOnCrOwN-0o0-tv",
-  "description": "MoOnCrOwN TV!",
+  "description": "MoOnCrOwN Canlı TV-Film-Dizi kanalları!",
   "resources": ["catalog","meta","stream"],
-  "idPrefixes": ["tv","ch","iptv_"],
-  "idPrefixes": ["ch"],
+  "types": ["tv"],
+  "extraSupported": ["search"],
   "catalogs": [
-    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar" },
-    { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası" },
-    { "id": "cat_haber", "type": "tv", "name": "📰 Haber" },
-    { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi" },
-    { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam" },
-    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik" }
+    { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"},{"name":"skip"}],"genres":["spor","Ulusal Kanallar","Vizitv"]},
+    { "id": "cat_spor", "type": "tv", "name": "⚽ Spor Dünyası","extra":[{"name":"search"},{"name":"skip"}]},
+    { "id": "cat_haber", "type": "tv", "name": "📰 Haber","extra":[{"name":"search"},{"name":"skip"}]},
+    { "id": "cat_sinema", "type": "tv", "name": "🎬 Sinema & Dizi","extra":[{"name":"search"},{"name":"skip"}]},
+    { "id": "cat_belgesel", "type": "tv", "name": "🦒 Belgesel & Yaşam","extra":[{"name":"search"},{"name":"skip"}]},
+    { "id": "cat_muzik", "type": "tv", "name": "🎵 Müzik","extra":[{"name":"search"},{"name":"skip"}]}
   ]
-}
+  "idPrefixes": ["ch","iptv_"],
+"behaviorHints":{"configurable":true,"configurationRequired":false}
+}		  
