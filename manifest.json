@@ -14,7 +14,7 @@
 {"type":"tv","id":"community","name":"Community"},
 {"type":"Podcasts","id":"community","name":"Community"},
 {"type":"other","id":"community","name":"Community"}],
-"catalogs":[{"type":"Podcasts","id":"top","genres":["ayat","arat","arab","yenir","edy,"ern"],
+"catalogs":[{"type":"Podcasts","id":"top","genres":["ayat","arat","arab","yenir","edy"],
 "extra":[{"name":"genre","options":["Action","Adventure","Animation","Biography","Comedy","War","Western"]},
 {"name":"search"},{"name":"skip"}],"extraSupported":["search","genre","skip"],
 "name":"AYTAC Popular"},
