@@ -8,8 +8,8 @@
   "types": ["tv"],
   "extraSupported": ["search"],
   "catalogs": [
-	 {"type":"tv","id":"top","genres":["ayat","arat","arab","yenir","edy,"ern"],
-"extra":[{"name":"genre","options":["Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western"]},
+	 {"type":"tv","id":"top","genres":["ayat","arat","arab","yenir","edy],
+"extra":[{"name":"genre","options":["Action","Adventure","Animation","Family","Fantasy","History","Horror","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western"]},
 {"name":"search"},{"name":"skip"}],"extraSupported":["search","genre","skip"],
 "name":"AYTAC Popular"}, 
     { "id": "cat_ulusal", "type": "tv", "name": "📺 Ulusal Kanallar","extra":[{"name":"search"},{"name":"skip"}],"genres":["spor","Ulusal Kanallar","Vizitv"]},
